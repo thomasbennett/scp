@@ -1,10 +1,10 @@
 {
-  "name": "scp",
+  "name": "spc",
   "version": "0.0.1",
-  "description": "scp dependencies",
-  "cssdir": "wp-content/themes/scp/scss",
-  "cssdir": "wp-content/themes/scp/css",
-  "jsdir": "wp-content/themes/scp/js",
+  "description": "spc dependencies",
+  "cssdir": "wp-content/themes/spc/scss",
+  "cssdir": "wp-content/themes/spc/css",
+  "jsdir": "wp-content/themes/spc/js",
   "devDependencies": {
     "grunt": "latest",
     "grunt-contrib-uglify": "latest",

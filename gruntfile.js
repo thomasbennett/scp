@@ -1,8 +1,3 @@
-var $theme = 'scp',
-    $theme_dir = 'wp-content/themes/'+$theme,
-    $css_dir = $theme_dir + '/css/',
-    $js_dir = $theme_dir + '/js/';
-
 module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
