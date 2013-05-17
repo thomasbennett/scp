@@ -1,0 +1,10 @@
+/*
+Theme Name: SCP
+Theme URI: http://thomasgbennett.com/
+Description: Custom theme
+Author: Thomas Bennett
+Author URI: http://thomasgbennett.com/
+Version: 1.0
+*/
+
+*, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }

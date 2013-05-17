@@ -1,0 +1,16 @@
+{
+  "name": "scp",
+  "version": "0.0.1",
+  "description": "scp dependencies",
+  "cssdir": "wp-content/themes/scp/scss",
+  "cssdir": "wp-content/themes/scp/css",
+  "jsdir": "wp-content/themes/scp/js",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-copy": "latest"
+  }
+}
