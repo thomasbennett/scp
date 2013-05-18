@@ -1,5 +1,5 @@
 <?php get_header(); ?>
 
-<?php echo 'hello world'; ?>
+<?php get_template_part('loop', 'index'); ?>
 
 <?php get_footer(); ?>
