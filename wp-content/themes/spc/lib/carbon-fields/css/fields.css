@@ -1,0 +1,81 @@
+.carbon-required { color: #c31d1d; font-weight: bold; text-shadow: 0 0 5px #c31d1d; }
+
+.carbon-field .regular-text { width: 25em; }
+.carbon-field textarea { height: 5em; }
+
+.carbon-group-row td { background: #FCFCFC; }
+.carbon-empty-row td { background: #FCFCFC; padding: 15px 20px !important; }
+.carbon-group-preview { display: none; }
+
+.carbon-view_image { display: block; margin: 3px; border: 1px solid #e8e8e8; box-shadow: 0 1px 3px rgba(0,0,0,.3); }
+.carbon-view_image.blank { height: auto; margin: 0; border: 0 none; box-shadow: 0 0; }
+.carbon-view_image { float: left; }
+.carbon-file-remove { float: left; margin: 3px !important; }
+
+.carbon-attachment-title,
+.carbon-attachment-url { display: block; margin: 3px 0 0; word-break: break-all; }
+.carbon-attachment-url { font-family: monospace; } 
+.carbon-Attachment .carbon-file-remove { margin: 3px 0 0 !important; }
+.carbon-Attachment .carbon-view_image { margin-right: 6px; }
+
+.carbon-color-row { position: relative; }
+.carbon-color-row .button { width: auto; }
+
+.carbon-datepicker-trigger,
+.carbon-color-preview 
+{ display: inline; margin: 0 7px 0 3px; padding: 3px 13px;  line-height: 20px; -webkit-border-radius: 4px; border-radius: 4px; border: 1px solid #DFDFDF; cursor: pointer; }
+.carbon-color-container { display: none; width: 195px; height: 195px; margin: 0 0 0 3px; background: #fafafa; border: 1px solid #ccc; box-shadow: 3px 3px 5px rgba(60, 60, 60, .3); -webkit-border-bottom-right-radius: 4px; -webkit-border-bottom-left-radius: 4px; -moz-border-radius-bottomright: 4px; -moz-border-radius-bottomleft: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; z-index: 1; }
+
+.carbon-datepicker-trigger { background:url(images/icon-date.png) no-repeat center center; margin-left:6px;}
+
+.carbon-map { height: 400px; max-width: 800px; padding: 2px; border: 1px solid #ccc; }
+.carbon-map-field { display:none;  }
+
+.carbon-field .address-search-btn {}
+
+.carbon-radio-list { }
+ul.carbon-radio-list { margin:0;}
+ul.carbon-radio-list li{ margin-bottom:3px;}
+ul.carbon-radio-list label { font-weight:normal; }
+ul.carbon-radio-list input { width: auto; margin-right:5px; }
+
+.form-field .carbon-field label { font-weight: bold; }
+.form-field .carbon-field input { width: auto; }
+
+.carbon-relationship ul { border: 1px solid #ccc; }
+.carbon-relationship ul li { margin: 0; padding: 3px; display: block; border-bottom: 1px solid #f5f5f5; }
+.carbon-relationship ul li a { text-decoration: none; }
+.carbon-relationship .widefat { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.carbon-relationship .widefat th { padding: 5px; border-bottom: 0 none; }
+.carbon-relationship .widefat input { width: 100%; margin: 0; font-size: 12px; line-height: 13px; border-radius: 13px; font-family: sans-serif; padding: 5px 9px !important; }
+
+.relationship-left { width: 50%; float: left; }
+.relationship-left ul { display: block; height: 150px; margin: 0; overflow: auto; border-top: 0 none; }
+
+.relationship-right { width: 50%; float: left; }
+.relationship-right ul { height: 189px; margin: 0 0 0 20px; }
+
+.carbon-set-list p { margin: 0 0 8px; }
+.carbon-set-list label { font-weight: normal !important; }
+.carbon-set-list input { margin-right: 5px; }
+
+.carbon-field .wp-editor-container textarea { resize: none; }
+
+.carbon-separator td { padding: 0; border: 0 none; }
+.js .carbon-separator h3, .carbon-separator h3 {  margin-top: 20px; cursor: default; }
+
+.carbon-subcontainer  { background: #E0E0E0 !important; }
+.carbon-subcontainer th { font-weight: normal; }
+.carbon-subcontainer .carbon-drag-handle { width: 20px !important; background: #f5f5f5; border-right: 1px solid #E0E0E0; text-align: center; cursor: move; }
+.carbon-subcontainer .carbon-drag-handle span { display: block; background: url(images/icon-move.png) no-repeat center bottom; padding-bottom: 20px;}
+.carbon-subcontainer .carbon-btn-holder { position: relative; }
+.carbon-subcontainer .carbon-group-row.removed .carbon-drag-handle { background: #e74444; }
+.carbon-subcontainer .carbon-btn-remove { position: absolute; top: 2px; right: 2px; width: 22px; height: 22px; background: url(images/icon-delete.png) no-repeat 0 0; font-size: 0; line-height: 0; text-indent: -4000px; }
+
+.carbon-desktop .carbon-subcontainer .carbon-btn-remove { visibility: hidden; }
+.carbon-desktop .carbon-subcontainer .carbon-group-row:hover .carbon-btn-remove { visibility: visible; }
+
+/*.carbon-subcontainer.carbon-container-shrank tr.ui-sortable-helper { max-height: 100px !important; overflow: hidden; }
+.carbon-subcontainer.carbon-container-shrank tr.ui-sortable-helper .carbon-drag-handle { vertical-align: top !important; }*/
+
+.carbon-wysiwyg .mceIframeContainer { background:#fff; }
